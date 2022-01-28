@@ -18,7 +18,7 @@ function ExpenseItem(props) {
         </div>
 
         <div className="expense-item__price">{props.amount}</div>
-        <button onClick={onClickHandler}>Change title</button>
+        <button onClick={onClickHandler}>Change the title</button>
       </Card>
     </li>
   );
